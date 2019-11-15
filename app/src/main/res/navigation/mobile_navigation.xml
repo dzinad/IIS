@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_knowledge_base">
+
+    <fragment
+        android:id="@+id/navigation_knowledge_base"
+        android:name="by.bsu.ddzina.lab1.KnowledgeBaseFragment"
+        android:label="База знаний"
+        tools:layout="@layout/fragment_knowledge_base" />
+
+    <fragment
+        android:id="@+id/navigation_practice"
+        android:name="by.bsu.ddzina.lab1.PracticeFragment"
+        android:label="Попробовать"
+        tools:layout="@layout/fragment_practice" />
+</navigation>

@@ -1,0 +1,322 @@
+[
+  {
+    "if": [
+      {
+        "attr": "time",
+        "value": "1630"
+      }
+    ],
+    "then": {
+      "attr": "area",
+      "value": "математика"
+    }
+  },
+  {
+    "if": [
+      {
+        "attr": "time",
+        "value": "1850"
+      }
+    ],
+    "then": {
+      "attr": "area",
+      "value": "биология"
+    }
+  },
+  {
+    "if": [
+      {
+        "attr": "area",
+        "value": "биология"
+      }
+    ],
+    "then": {
+      "attr": "country",
+      "value": "Англия"
+    }
+  },
+  {
+    "if": [
+      {
+        "attr": "area",
+        "value": "физика"
+      },
+      {
+        "attr": "country",
+        "value": "Дания"
+      }
+    ],
+    "then": {
+      "attr": "time",
+      "value": "1930"
+    }
+  },
+  {
+    "if": [
+      {
+        "attr": "area",
+        "value": "физика"
+      },
+      {
+        "attr": "country",
+        "value": "Англия"
+      }
+    ],
+    "then": {
+      "attr": "time",
+      "value": "1700"
+    }
+  },
+  {
+    "if": [
+      {
+        "attr": "area",
+        "value": "математика"
+      },
+      {
+        "attr": "time",
+        "value": "1630"
+      }
+    ],
+    "then": {
+      "attr": "country",
+      "value": "Франция"
+    }
+  },
+  {
+    "if": [
+      {
+        "attr": "area",
+        "value": "математика"
+      },
+      {
+        "attr": "time",
+        "value": "1700"
+      }
+    ],
+    "then": {
+      "attr": "country",
+      "value": "Англия"
+    }
+  },
+  {
+    "if": [
+      {
+        "attr": "area",
+        "value": "физика"
+      },
+      {
+        "attr": "time",
+        "value": "1930"
+      },
+      {
+        "attr": "country",
+        "value": "Дания"
+      }
+    ],
+    "then": {
+      "attr": "scientist",
+      "value": "Бор"
+    }
+  },
+  {
+    "if": [
+      {
+        "attr": "area",
+        "value": "физика"
+      },
+      {
+        "attr": "time",
+        "value": "1930"
+      },
+      {
+        "attr": "country",
+        "value": "Германия"
+      }
+    ],
+    "then": {
+      "attr": "scientist",
+      "value": "Эйнштейн"
+    }
+  },
+  {
+    "if": [
+      {
+        "attr": "area",
+        "value": "физика"
+      },
+      {
+        "attr": "time",
+        "value": "1700"
+      },
+      {
+        "attr": "country",
+        "value": "Англия"
+      }
+    ],
+    "then": {
+      "attr": "scientist",
+      "value": "Ньютон"
+    }
+  },
+  {
+    "if": [
+      {
+        "attr": "area",
+        "value": "математика"
+      },
+      {
+        "attr": "time",
+        "value": "1700"
+      },
+      {
+        "attr": "country",
+        "value": "Англия"
+      }
+    ],
+    "then": {
+      "attr": "scientist",
+      "value": "Ньютон"
+    }
+  },
+  {
+    "if": [
+      {
+        "attr": "area",
+        "value": "математика"
+      },
+      {
+        "attr": "time",
+        "value": "1750"
+      },
+      {
+        "attr": "country",
+        "value": "Швейцария"
+      }
+    ],
+    "then": {
+      "attr": "scientist",
+      "value": "Эйлер"
+    }
+  },
+  {
+    "if": [
+      {
+        "attr": "area",
+        "value": "математика"
+      },
+      {
+        "attr": "time",
+        "value": "1750"
+      },
+      {
+        "attr": "country",
+        "value": "Германия"
+      }
+    ],
+    "then": {
+      "attr": "scientist",
+      "value": "Эйлер"
+    }
+  },
+  {
+    "if": [
+      {
+        "attr": "area",
+        "value": "математика"
+      },
+      {
+        "attr": "time",
+        "value": "1630"
+      },
+      {
+        "attr": "country",
+        "value": "Франция"
+      }
+    ],
+    "then": {
+      "attr": "scientist",
+      "value": "Декарт"
+    }
+  },
+  {
+    "if": [
+      {
+        "attr": "area",
+        "value": "математика"
+      },
+      {
+        "attr": "time",
+        "value": "1750"
+      },
+      {
+        "attr": "country",
+        "value": "Франция"
+      }
+    ],
+    "then": {
+      "attr": "scientist",
+      "value": "Д'Аламбер"
+    }
+  },
+  {
+    "if": [
+      {
+        "attr": "area",
+        "value": "физика"
+      },
+      {
+        "attr": "time",
+        "value": "1700"
+      },
+      {
+        "attr": "country",
+        "value": "Германия"
+      }
+    ],
+    "then": {
+      "attr": "scientist",
+      "value": "Фаренгейт"
+    }
+  },
+  {
+    "if": [
+      {
+        "attr": "area",
+        "value": "биология"
+      },
+      {
+        "attr": "time",
+        "value": "1850"
+      },
+      {
+        "attr": "country",
+        "value": "Англия"
+      }
+    ],
+    "then": {
+      "attr": "scientist",
+      "value": "Дарвин"
+    }
+  },
+  {
+    "if": [
+      {
+        "attr": "area",
+        "value": "биология"
+      },
+      {
+        "attr": "time",
+        "value": "1930"
+      },
+      {
+        "attr": "country",
+        "value": "Англия"
+      }
+    ],
+    "then": {
+      "attr": "scientist",
+      "value": "Флемминг"
+    }
+  }
+]
